@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="48" height="48">
+  <defs>
+    <linearGradient id="cyberGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2ff" />
+      <stop offset="100%" stop-color="#7000ff" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="12" fill="none"/>
+  <path d="M32 14 L44 26 L36 26 L36 42 L28 42 L28 26 L20 26 Z" fill="url(#cyberGlow)">
+    <animateTransform attributeName="transform" type="translate" values="0,2; 0,-3; 0,2" dur="2s" repeatCount="indefinite" />
+  </path>
+  <path d="M16 46 H48" stroke="#00f2ff" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+  <circle cx="22" cy="50" r="1.5" fill="#00f2ff"/>
+  <circle cx="42" cy="50" r="1.5" fill="#7000ff"/>
+</svg>

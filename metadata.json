@@ -1,0 +1,6 @@
+{
+  "name": "THOR INDECATOR V1",
+  "description": "THOR INDECATOR V1 - Neural Bypass Protocol for Apple of Fortune and Platform Signal Prediction",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
