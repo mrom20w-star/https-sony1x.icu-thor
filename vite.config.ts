@@ -161,7 +161,7 @@ export default defineConfig(() => {
     plugins: [react(), tailwindcss(), sony1xApiPlugin()],
     resolve: {
       alias: {
-        '@': path.resolve(__dirname, '.'),
+        '@': path.resolve(import.meta.dirname || '.', '.'),
       },
     },
     server: {
